@@ -1,0 +1,206 @@
+.mainDiv {
+  padding: 70px 0;
+}
+.mainDiv .container .dealParts {
+  overflow: hidden;
+}
+
+.mainDiv .container .dealParts .left {
+  float: left;
+  width: 50%;
+}
+
+.mainDiv .container .dealParts .left h2 {
+  font-size: 17px;
+  margin-bottom: 26px;
+  color: #60bf93;
+}
+.mainDiv .container .dealParts .left .dealImageParts .row {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.mainDiv .container .dealParts .left .dealImageParts .row .left {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+.mainDiv .container .dealParts .left .dealImageParts .row .left img {
+  object-fit: cover;
+}
+
+.mainDiv .container .dealParts .left .dealImageParts .row .right {
+  float: left;
+  width: 50%;
+  padding: 0 5px;
+}
+
+.mainDiv .container .dealParts .left .dealImageParts .row .right p {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #000000a1;
+  line-height: 16px;
+}
+.mainDiv .container .dealParts .left .dealImageParts .row .right a {
+  font-size: 11px;
+  background: #60bf93;
+  color: white;
+  padding: 8px 15px;
+  margin-top: 6px;
+  display: inline-block;
+}
+.mainDiv .container .dealParts .left .dealImageParts .row .right a:hover {
+  background: #12663f;
+  cursor: pointer;
+}
+
+/* Right Main  */
+
+.mainDiv .container .dealParts .right {
+  float: right;
+  width: 40%;
+}
+.mainDiv .container .dealParts .right h2 {
+  font-size: 17px;
+  margin-bottom: 26px;
+  color: #60bf93;
+}
+.mainDiv .container .dealParts .right .uncommingActions {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.mainDiv .container .dealParts .right .uncommingActions .row {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.mainDiv .container .dealParts .right .uncommingActions .row .left {
+  float: left;
+  width: 20%;
+  background-color: #60bf93;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+}
+.mainDiv .container .dealParts .right .uncommingActions .row .left hr {
+  border: 1px solid rgba(255, 255, 255, 0.493);
+}
+.mainDiv .container .dealParts .right .uncommingActions .row .right {
+  float: left;
+  width: 80%;
+  padding: 0 20px;
+}
+.mainDiv .container .dealParts .right .uncommingActions .row .right p {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.589);
+}
+
+/* services */
+
+.services {
+  padding: 50px 0;
+}
+.serviceParts {
+  overflow: hidden;
+}
+.serviceParts .service {
+  width: 25%;
+  float: left;
+}
+.serviceParts .service h2 {
+  color: #26a168;
+  margin-bottom: 20px;
+}
+.serviceParts .service .row {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.serviceParts .service .row .arrow {
+  float: left;
+  width: 20%;
+}
+.serviceParts .service .row .arrow i {
+  padding: 9px 13px;
+  background: #60bf93;
+  color: white;
+}
+
+.serviceParts .service .row .textArrow {
+  float: left;
+  width: 80%;
+  padding-right: 50px;
+}
+
+.serviceParts .service .row .textArrow p {
+  font-size: 14px;
+  color: #000000a6;
+}
+
+/* About  */
+
+.serviceParts .about {
+  width: 45%;
+  float: left;
+}
+
+.serviceParts .about h2 {
+  color: #26a168;
+  margin-bottom: 20px;
+  margin-left: 43px;
+}
+
+.serviceParts .about .aboutBox {
+  padding: 5px 45px;
+  border-right: 1px solid #00000054;
+  border-left: 1px solid #00000054;
+}
+
+.serviceParts .about .aboutBox .aboutImage {
+  padding: 10px;
+  background-color: #f8f7f7;
+}
+
+.serviceParts .about .aboutBox .aboutText {
+}
+.serviceParts .about .aboutBox .aboutText p {
+  font-size: 14px;
+  margin-top: 19px;
+  line-height: 18px;
+  color: #000000b3;
+}
+
+/* Testimonials  */
+
+.serviceParts .testimonial {
+  width: 30%;
+  float: left;
+  padding: 0 0 0 20px;
+}
+
+.serviceParts .testimonial h2 {
+  color: #26a168;
+  margin-bottom: 20px;
+}
+
+.serviceParts .testimonial .testimonialOne {
+  margin-bottom: 20px;
+}
+.serviceParts .testimonial .testimonialOne p {
+  font-size: 14px;
+  margin-bottom: 9px;
+  color: #0000008c;
+  line-height: 17px;
+  font-style: italic;
+}
+
+.serviceParts .testimonial .testimonialOne p i {
+  font-size: 21px;
+  color: #b5b5b5;
+}
+.serviceParts .testimonial .testimonialOne p a {
+  color: #26a168;
+  font-size: 15px;
+}
+.serviceParts .testimonial .testimonialOne p a:hover {
+  color: #12663f;
+}

@@ -1,0 +1,85 @@
+/* Media Main Area  */
+.mediaMain {
+  padding: 50px 0;
+}
+.mediaParts {
+  overflow: hidden;
+}
+/* Left  */
+.mediaLeft {
+  float: left;
+  width: 50%;
+}
+.mediaLeft .one h2 {
+  color: #60bf93;
+  margin-bottom: 20px;
+}
+
+.mediaLeft .one {
+  padding: 0 0 50px 0;
+}
+.mediaLeft .one p {
+  margin-top: 20px;
+  color: #000000a6;
+  font-size: 14px;
+  line-height: 17px;
+}
+/* Right  */
+
+.mediaRight {
+  float: right;
+  width: 40%;
+}
+
+/* TopVideos  */
+
+.topVideos h2 {
+  color: #60bf93;
+  margin-bottom: 20px;
+}
+.topVideos p {
+  margin-bottom: 7px;
+  color: #000000a8;
+}
+.topVideos p i {
+  background: #60bf93;
+  color: white;
+  padding: 3px;
+  margin-right: 11px;
+}
+/* archieve  */
+
+.archieve {
+  padding: 40px 0;
+}
+.archieve h2 {
+  color: #60bf93;
+  margin-bottom: 20px;
+}
+.archieve .calender .row {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.archieve .calender .row .left {
+  float: left;
+  width: 20%;
+  background-color: #60bf93;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+}
+.archieve .calender .row .left hr {
+  border: 1px solid rgba(255, 255, 255, 0.493);
+}
+.archieve .calender .row .right {
+  float: left;
+  width: 80%;
+  padding: 0 20px;
+}
+.archieve .calender .row .right p {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.589);
+}
+
+/* Media Main Area  End*/

@@ -1,0 +1,215 @@
+/* Slider  */
+
+.slider {
+  background: url("../images/sliderPic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 356px;
+  position: relative;
+}
+.slider .innerSliderDiv {
+  background-color: #000000c2;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 135px;
+  padding: 14px 52px;
+  color: white;
+}
+
+.slider .innerSliderDiv p {
+  line-height: 34px;
+  color: #ffffffc7;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+/* Meet Our Team  */
+
+.meetTeam {
+  overflow: hidden;
+
+  padding: 90px 0;
+}
+.meetTeam h2 {
+  color: #60bf93;
+  font-size: 19px;
+  margin-bottom: 25px;
+  font-family: "Open Sans", sans-serif;
+}
+.meetTeam p {
+  margin-bottom: 31px;
+  font-size: 14px;
+  /* line-height: 12px; */
+  color: #8a8989;
+}
+.buttonDiv {
+  margin-top: 40px;
+}
+.meetTeam a {
+  padding: 7px 18px;
+  background: #60bf93;
+  color: white;
+  font-size: 12px;
+}
+
+.meetTeam a:hover {
+  background: #26a168;
+}
+.meetTeam .meetOurTeam {
+  float: left;
+  width: 60%;
+  padding: 0 30px 0 0;
+}
+
+.meetTeam .meetOurTeam .twoMeetTeam .left {
+  float: left;
+  width: 40%;
+}
+.meetTeam .meetOurTeam .twoMeetTeam .right {
+  float: left;
+  width: 60%;
+  padding: 0px 52px 0px 30px;
+}
+
+.meetTeam .ourMission {
+  float: left;
+  width: 40%;
+}
+
+/* Main Parts  */
+
+.mainParts {
+  overflow: hidden;
+  padding: 73px 0 49px 4px;
+}
+
+.latestNews {
+  float: left;
+  width: 25%;
+}
+
+.latestNews h2 {
+  color: #60bf93;
+  margin-bottom: 27px;
+}
+.latestNews .calender .row {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.latestNews .calender .row:first-child {
+  margin-bottom: 15px;
+}
+.latestNews .calender .row .left {
+  float: left;
+  width: 27%;
+  background-color: #60bf93;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+}
+.latestNews .calender .row .left p:first-child {
+  font-size: 15px;
+}
+
+.latestNews .calender .row .left hr {
+  border: 1px solid rgba(255, 255, 255, 0.493);
+}
+.latestNews .calender .row .right {
+  float: left;
+  width: 65%;
+  padding: 0 20px;
+}
+.latestNews .calender .row .right p {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.589);
+}
+
+/* testimonial */
+
+.testimonial {
+  margin: 50px 0;
+  width: 93%;
+}
+.testimonial .testimonialHead {
+  background-color: #60bf93;
+  text-align: center;
+
+  padding: 29px 0;
+
+  color: white;
+}
+.testimonial .testimonialBody {
+  background-color: #ededed;
+
+  padding: 27px 14px 55px 19px;
+}
+.testimonial .testimonialBody p {
+  color: #000000a3;
+  line-height: 20px;
+  font-style: italic;
+  font-size: 13px;
+}
+.testimonial .testimonialBody p i {
+  font-size: 26px;
+  color: #0000006b;
+}
+.testimonial .testimonialBody h3 {
+  float: right;
+  color: #000000ad;
+  font-size: 17px;
+
+  margin-top: 15px;
+}
+
+/* ourCompaigns */
+
+.ourCompaigns {
+  float: left;
+  width: 75%;
+  /* padding-left: 30px; */
+}
+.ourCompaigns h2 {
+  color: #60bf93;
+  margin-bottom: 20px;
+}
+
+.ourCompaigns .gallery {
+  overflow: hidden;
+}
+
+.ourCompaigns .gallery .one {
+  background-color: #f8f7f7;
+  float: left;
+  width: 33%;
+
+  padding: 10px;
+  position: relative;
+}
+.ourCompaigns .gallery .one img {
+  object-fit: cover;
+}
+.ourCompaigns .gallery .one:hover .overlay {
+  display: block;
+  cursor: pointer;
+}
+.ourCompaigns .gallery .one .overlay {
+  background-color: #000000cc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  padding: 20px;
+  display: none;
+}
+.ourCompaigns .gallery .one .overlay .line {
+  padding: 10px 0;
+  background-color: #cccac9;
+  margin-bottom: 10px;
+}
+.ourCompaigns .gallery .one .overlay h2 {
+  color: white;
+}

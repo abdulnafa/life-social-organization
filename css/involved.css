@@ -1,0 +1,43 @@
+.involvedMain {
+  padding: 50px 0;
+}
+
+.involvedParts {
+  overflow: hidden;
+}
+
+.involvedParts .one {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.involvedParts .one:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+.involvedParts .one h2 {
+  margin-bottom: 20px;
+  font-size: 17px;
+  color: #468c6b;
+}
+
+.involvedParts .one p {
+  margin: 11px 0;
+  color: #000000cc;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.involvedParts .one a {
+  background: #60bf93;
+  color: white;
+  font-size: 12px;
+  padding: 7px 14px;
+  margin-top: 5px;
+  display: inline-block;
+}
+.involvedParts .one a:hover {
+  background: #138550;
+  cursor: pointer;
+}

@@ -1,0 +1,80 @@
+p {
+  color: #838181;
+}
+.contactMain {
+  padding: 50px 0;
+}
+
+.map h2 {
+  color: #468c6b;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.map iframe {
+  width: 100%;
+}
+.addressParts {
+  overflow: hidden;
+  padding: 30px 0;
+}
+
+.addressParts .addressOne {
+  float: left;
+  width: 33.33%;
+}
+.addressParts .addressOne h2 {
+  color: #468c6b;
+  margin-bottom: 20px;
+}
+.addressParts .addressOne p {
+  margin-bottom: 5px;
+}
+.addressParts .addressOne p i {
+  margin-right: 13px;
+}
+
+.addressParts .addressOne p i.white {
+  color: white;
+}
+
+.form {
+  padding: 40px 0;
+}
+
+.form h2 {
+  font-size: 17px;
+  margin-bottom: 20px;
+  color: #468c6b;
+}
+.form p {
+  margin-bottom: 7px;
+}
+.form p a {
+  color: #7cc8a4;
+}
+.form p a:hover {
+  color: #468c6b;
+}
+.form form {
+  padding: 10px 0;
+}
+.form form input {
+  width: 31%;
+  margin: 0 10px 20px 0;
+  border: 1px solid #0000003a;
+}
+
+.form form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #0000003a;
+  padding: 10px 0 0 30px;
+}
+
+.form form .btnDiv {
+  width: 200px;
+  float: right;
+}
+.form form .btnDiv button {
+  margin-left: 10px;
+}
